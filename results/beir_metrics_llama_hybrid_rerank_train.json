@@ -1,0 +1,45 @@
+{
+  "settings": {
+    "dataset": "scifact",
+    "split": "train",
+    "reranker": "cross-encoder/ms-marco-MiniLM-L6-v2",
+    "max_length": 512,
+    "candidate_count": 100,
+    "source_sha256": "c002960b12c374af754578b35fa8db7c1c9ed3c5ef1d2b3e9e102534a902facf"
+  },
+  "query_count": 809,
+  "before": {
+    "Accuracy@10": 0.86897,
+    "Accuracy@100": 0.96415,
+    "Recall@10": 0.85581,
+    "Recall@100": 0.96251,
+    "P@10": 0.09617,
+    "P@100": 0.01096,
+    "MRR@10": 0.71383,
+    "MRR@100": 0.71776,
+    "NDCG@10": 0.74349,
+    "NDCG@100": 0.76753,
+    "MAP@10": 0.70193,
+    "MAP@100": 0.70759
+  },
+  "after": {
+    "Accuracy@10": 0.84054,
+    "Accuracy@100": 0.96415,
+    "Recall@10": 0.82614,
+    "Recall@100": 0.96251,
+    "P@10": 0.09308,
+    "P@100": 0.01096,
+    "MRR@10": 0.68065,
+    "MRR@100": 0.68597,
+    "NDCG@10": 0.71121,
+    "NDCG@100": 0.74185,
+    "MAP@10": 0.66893,
+    "MAP@100": 0.67617
+  },
+  "changes": {
+    "successful_both": 654,
+    "recovered": 26,
+    "regressed": 49,
+    "missed_both": 80
+  }
+}

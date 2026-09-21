@@ -1,0 +1,18 @@
+{
+  "dataset": "scifact",
+  "split": "train",
+  "methods": {
+    "Vector search": {
+      "mrr_at_10": 0.5652579119822623
+    },
+    "BM25": {
+      "mrr_at_10": 0.6242205740969645
+    },
+    "Hybrid RRF": {
+      "mrr_at_10": 0.6316449859713144
+    },
+    "Hybrid + reranking": {
+      "mrr_at_10": 0.6800930013538169
+    }
+  }
+}

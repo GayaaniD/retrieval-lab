@@ -1,0 +1,30 @@
+{
+  "settings": {
+    "dataset": "scifact",
+    "split": "test",
+    "model": "llama-text-embed-v2",
+    "index": "retrievallab-scifact-llama",
+    "namespace": "scifact",
+    "top_k": 100
+  },
+  "query_count": 300,
+  "k_values": [
+    10,
+    100
+  ],
+  "ranking_policy": "Preserve returned order using ordinal scores",
+  "metrics": {
+    "Accuracy@10": 0.86,
+    "Accuracy@100": 0.94333,
+    "Recall@10": 0.84933,
+    "Recall@100": 0.942,
+    "P@10": 0.09567,
+    "P@100": 0.01067,
+    "MRR@10": 0.69548,
+    "MRR@100": 0.69934,
+    "NDCG@10": 0.72577,
+    "NDCG@100": 0.74694,
+    "MAP@10": 0.68086,
+    "MAP@100": 0.68606
+  }
+}
