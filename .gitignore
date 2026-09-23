@@ -2,6 +2,8 @@
 .env
 .env.*
 !.env.example
+!env.example
+.streamlit/secrets.toml
 
 # Python
 __pycache__/
@@ -15,17 +17,16 @@ __pycache__/
 .venv/
 venv/
 
+# Build and packaging output
+build/
+dist/
+
 # macOS / editor junk
 .DS_Store
 .idea/
 .vscode/
 
-# Datasets: re-downloadable BEIR data, keep queries + qrels only
-datasets/*.zip
-datasets/scifact/corpus.jsonl
+# Logs
+*.log
 
-# Results: ignore the large per-run retrieval dumps, keep the small metrics
-results/**
-!results/**/
-!results/**/*metrics*.json
-!results/**/*summary*.json
+

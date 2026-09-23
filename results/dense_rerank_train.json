@@ -1,0 +1,15 @@
+{
+  "dataset": "scifact",
+  "split": "train",
+  "query_count": 809,
+  "embedding_model": "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+  "reranker_model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+  "candidate_count": 100,
+  "final_k": 10,
+  "baseline_successes": 611,
+  "reranked_successes": 654,
+  "successful_with_both": 585,
+  "recovered": 69,
+  "regressed": 26,
+  "missed_by_both": 129
+}
