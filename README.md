@@ -7,7 +7,7 @@ I built this project to study a common retrieval failure: a relevant document ex
 ## Live demo
 
 **Deployment:** Streamlit Community Cloud  
-**Live application:** Coming soon
+**Live application:** [Live application](https://retrievallab-rag.streamlit.app/)
 
 
 ## What I built
